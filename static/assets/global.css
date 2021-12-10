@@ -1,0 +1,46 @@
+:root {
+  --main: #497AAA;
+  --main-light: #58AADB;
+  --shape: #FFFFFF;
+  --text-title: #053F5C;
+  --attention: #E51919;
+  --attention-light: #FFD6D6;
+  --secondary: #F9BD47;
+  --secondary-light: #FCDEA3;
+  --tertiary: #F27F0C;
+  --blue-graphic-line: #259ffb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Gotham-light";
+  src: local("Gotham"),
+      url(~/static/assets/fonts/GothamLight.ttf);
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: local("Gotham"),
+      url(~/static/assets/fonts/GothamBook.ttf);
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: local("Gotham"),
+      url(~/static/assets/fonts/GothamMedium.ttf);
+}
+
+@font-face {
+  font-family: "Gotham-bold";
+  src: local("Gotham"),
+      url(~/static/assets/fonts/GothamBold.ttf);
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 86%;
+  }
+}

@@ -1,0 +1,66 @@
+<template>
+  <div class="background-geral">
+    <Nuxt />
+  </div>
+</template>
+
+<style>
+  .background-geral {
+    background-image: url('~/static/assets/background.svg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  .box-branco {
+    background-color: white;
+    border-radius: 10px;
+    border: 0.75px solid #053F5C;
+    padding: 36px 24px;
+    position: relative;
+  }
+  .btn-laranja-strong {
+    background-color: #F27F0C;
+    color: white;
+    height: 41px;
+    line-height: 41px;
+    border: 0;
+    border-radius: 40px
+  }
+  .r-25 {
+        right: 25px;
+  }
+  .mt-69 {
+    margin-top: 69px;
+  }
+  .mb-69 {
+    margin-bottom: 69px;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .titulo-azul-boxes {
+    font-family: 'Gotham-bold';
+    font-size: 20px;
+    color: #053F5C;
+  }
+  .row-azul-claro {
+    border-radius: 55px;
+    border: 0;
+    background-color: #D9ECF2;
+  }
+</style>
